@@ -1,0 +1,72 @@
+body,html{
+    height : 100%;
+    width : 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    z-index: -10;
+    flex-direction: column;
+}
+.container{
+    height : 60%;
+    width : 25%;
+    border : 2px solid white;
+    position : relative;
+}
+.container input{
+    position : absolute;
+    height : 8%;
+    width : 80%;
+    left : 9%;
+    top : 3%;
+    border : 2px solid white;
+    font-size :20px;
+}
+.btnC{
+    display : flex;
+    gap : 20px;
+    flex-direction: column;
+    position : absolute;
+    top : 15%;
+    height : 85%;
+    width : 100%;
+}
+.row{
+    display : flex;
+    justify-content: space-around;
+}
+.btn{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    height : 50px;
+    width : 50px;
+    border : 2px solid white;
+    border-radius : 50%;
+    font-size : 20px;
+    font-weight: 700;
+    cursor : pointer;
+    background-color: white;
+}
+
+.btn:hover{
+    background-color: rgba(227, 218, 218, 0.713);
+}
+.btn:active{
+    background-color: black;
+    color: white;
+}
+.btn{
+    background-color: white;
+    position: relative;
+    right: -10px;
+    border-radius: 50%;
+}
+h1{
+    display: inline-block;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
